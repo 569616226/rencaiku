@@ -1,0 +1,72 @@
+.ztree li{
+    margin-top: 10px;
+}
+.ztree li a {
+    height: auto;
+}
+.ztree li a:hover {
+    text-decoration:none;
+}
+.ztree li span.button {
+    height: 24px;
+    width: 24px;
+}
+.ztree * {
+    font-size: 14px;
+}
+.ztree li span {
+    line-height: 24px;
+}
+.ztree li a.curSelectedNode {
+    background: #5386B5;
+    height: auto;
+    border: none;
+    color: #FFFFFF;
+}
+.ztree li span.button.noline_open {
+    background: url(img/diy/down-b.png);
+    margin-top: 2px;
+}
+.ztree li span.button.noline_close {
+    background: url(img/diy/right-b.png);
+    margin-top: 2px;
+}
+
+
+
+.dataTables_wrapper {
+    margin-left: 14px;
+}
+
+.menuContent {
+    padding-bottom: 20px;
+    margin-top: 1.3rem;
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+.tabletree {
+    /*min-height: 500px;*/
+    /*padding: 10px;*/
+    /*border: 1px solid rgb(221, 221, 221);*/
+}
+.tree_search {
+    position: relative;
+    background: #F5FAFF;
+    padding: 10px;
+}
+.tree_search label {
+    width: 100%;
+}
+.tree_search .tree-search {
+    border-radius: 4px;
+    padding-left: 24px;
+}
+.tree_search i {
+    position: absolute;
+    z-index: 100;
+    top: 14px;
+    left:14px;
+    color: #999999;
+}

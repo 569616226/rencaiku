@@ -1,0 +1,27 @@
+{
+    "name": "dream/qy_wechat",
+    "description": "qy_wechat for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dreamfish",
+            "email": "569616226@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DreamFish\\QyWeChat": "src/"
+        }
+//        "files": [
+//            "src/GeekGhc/LaraFlash/function.php"
+//        ]
+    }
+}
